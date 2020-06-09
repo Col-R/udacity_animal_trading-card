@@ -1,0 +1,43 @@
+/* Gray background. Easier on the eyes */
+body {background-color: #778899;}
+
+/* Outer box */
+.container {
+    background-color: white;
+    border: 5px solid;
+    margin: 5px;
+    width: 355px;
+    float: left;}
+
+/* Middle box */
+.middlebox {
+
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid grey;
+    box-shadow: 10px 5px 5px pink;
+}
+
+
+/* Small facts container box */
+.factbox {
+    width: 300px;
+    border: .5px solid grey;
+    margin-top: 20px;
+
+    padding: 5px;
+
+}
+
+
+/* Interesting fact */
+.mainfact {
+    font-style: italic;
+    font-size: 14pt;}
+
+/* List formatting */
+ul {list-style: none;
+    padding-left: 0;}
+
+    span {
+    font-weight: bold;}
